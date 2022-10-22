@@ -7,7 +7,7 @@ getTutorial,
 updateTutorial,
 deleteTutorial,
 deleteAll
-} = require("../controllers/tutorial.js")
+} = require("../controllers/tutorial")
 
 const router = express.Router();
 

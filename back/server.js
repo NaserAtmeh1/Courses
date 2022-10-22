@@ -6,7 +6,7 @@ const cors = require("cors")
 const tutRoute = require("./routes/tutRoute")
 
 var corsOptions = {
-    origin: "http://localhost:8081"
+    origin: "http://localhost:1234"
   };
   
   app.use(cors(corsOptions));
