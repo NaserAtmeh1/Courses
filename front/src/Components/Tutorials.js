@@ -5,7 +5,7 @@ export default function Tutorials() {
   const [tuts,setTuts] = useState([])
   const getAll = async () => {
     try{
-      const {data} = axios.get("http://localhost:1234/api/tutorials")
+      const {data} = await axios.get("http://localhost:1234/api/tutorials")
       console.log(data)
       setTuts(data)
     }
@@ -29,6 +29,9 @@ export default function Tutorials() {
 
   return (
     <div>
+      {tuts.map(tut => (
+        <h2>{tut.name}</h2>
+      ))}
     </div>
   )
 }

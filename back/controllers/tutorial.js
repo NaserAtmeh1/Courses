@@ -8,7 +8,7 @@ exports.getTutorials = (req, res) => {
           console.log(err);
           return res.json(err);
         }
-        return res.json("this is the data "+data);
+        return res.json(data);
       });
     
 };

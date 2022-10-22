@@ -13,4 +13,22 @@
   width: 80vw;
   justify-content: space-between;
   margin: auto;
+  height: 4vh;
+}
+
+#form-group{
+  width: 40vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow: hidden;
+
+}
+
+#container1{
+  display: flex;
+  align-items: center;
+  height: 96vh;
+  overflow: hidden;
 }
