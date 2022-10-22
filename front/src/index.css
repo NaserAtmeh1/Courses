@@ -7,3 +7,10 @@
 .App {
   text-align: center;
 }
+
+#nav{
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  margin: auto;
+}

@@ -5,11 +5,8 @@ const PORT = process.env.Port
 const cors = require("cors")
 const tutRoute = require("./routes/tutRoute")
 
-var corsOptions = {
-    origin: "http://localhost:1234"
-  };
   
-  app.use(cors(corsOptions));
+  app.use(cors());
   
   // parse requests of content-type - application/json
   app.use(express.json());
