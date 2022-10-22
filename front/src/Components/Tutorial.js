@@ -88,13 +88,14 @@ export default function Tutorial() {
 
           {currentTutorial.published ? (
             <button
+            id='badge'
               className="badge badge-primary mr-2"
               onClick={() => updatePublished(false)}
             >
               UnPublish
             </button>
           ) : (
-            <button
+            <button id='badge'
               className="badge badge-primary mr-2"
               onClick={() => updatePublished(true)}
             >
@@ -102,11 +103,11 @@ export default function Tutorial() {
             </button>
           )}
 
-          <button className="badge badge-danger mr-2" onClick={deleteTutorial}>
+          <button id='badge' className="badge badge-danger mr-2" onClick={deleteTutorial}>
             Delete
           </button>
 
-          <button
+          <button id='badge'
             type="submit"
             className="badge badge-success"
             onClick={updateTutorial}

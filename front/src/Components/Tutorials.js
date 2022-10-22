@@ -119,7 +119,7 @@ export default function Tutorials() {
               {currentTutorial.published ? "Published" : "Pending"}
             </div>
 
-            <Link
+            <Link id='lino'
               to={"/tutorials/" + currentTutorial.id}
               className="badge badge-warning"
             >
