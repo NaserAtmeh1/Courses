@@ -6,6 +6,7 @@
 
 .App {
   text-align: center;
+  color: black;
 }
 
 #nav{
@@ -32,3 +33,19 @@
   height: 96vh;
   overflow: hidden;
 }
+
+#container2{
+  display: flex;
+  justify-content: center;
+  height: 96vh;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+#container3{
+  display: flex;
+  flex-direction: column;
+  width: 40vw ;
+}
+

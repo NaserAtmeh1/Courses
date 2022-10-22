@@ -54,7 +54,7 @@ export default function Add() {
   return (
     <div className="submit-form" id='container1'>
       {submitted ? (
-        <div>
+        <div id='form-group'>
           <h4>You submitted successfully!</h4>
           <button className="btn btn-success" onClick={newTutorial}>
             Add
