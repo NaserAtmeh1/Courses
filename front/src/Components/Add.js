@@ -43,7 +43,6 @@ export default function Add() {
 
 
   const newTutorial = () => {
-    setTutorial({});
     setSubmitted(false);
 
   };
